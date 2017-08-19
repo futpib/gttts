@@ -16,6 +16,6 @@
     "test": "xo"
   },
   "bin": {
-    "gttts": "./index.js"
+    "gttts": "./cli.js"
   }
 }

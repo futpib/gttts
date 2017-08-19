@@ -71,6 +71,6 @@ class TTSStream extends Writable {
 	}
 }
 
-(function () {
-	process.stdin.pipe(new TTSStream());
-})();
+module.exports = {
+	TTSStream
+};
