@@ -1,0 +1,21 @@
+{
+  "name": "gttts",
+  "version": "1.0.0",
+  "description": "Google translate text to speech",
+  "main": "index.js",
+  "author": "futpib <futpib@gmail.com>",
+  "license": "MIT OR GPL-3.0+",
+  "dependencies": {
+    "chrome-finder": "^1.0.1",
+    "puppeteer": "^0.9.0"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "bin": {
+    "gttts": "./index.js"
+  }
+}
